@@ -41,3 +41,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+#5
+cur.execute(
+    """
+SELECT * FROM tbl0 WHERE c02 = 100 OR c02 = 600
+
+"""
+).fetchall()

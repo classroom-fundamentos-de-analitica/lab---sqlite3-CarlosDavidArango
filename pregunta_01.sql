@@ -17,3 +17,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+#1
+cur.execute(
+    """
+SELECT SUM(c12)
+FROM tbl1;
+
+"""
+).fetchall()

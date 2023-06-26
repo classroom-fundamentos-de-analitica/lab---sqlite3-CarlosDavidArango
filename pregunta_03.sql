@@ -22,3 +22,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+#3
+cur.execute(
+    """
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
+
+"""
+).fetchall()

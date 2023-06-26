@@ -41,3 +41,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+#8
+cur.execute(
+    """
+SELECT strftime('%Y', c23), avg(c21) FROM tbl2
+GROUP BY strftime('%Y', c23)
+
+"""
+).fetchall()

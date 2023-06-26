@@ -38,3 +38,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+#9
+cur.execute(
+    """
+SELECT * FROM tbl2 ORDER BY c21 LIMIT 1
+
+"""
+).fetchall()
