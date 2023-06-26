@@ -18,10 +18,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-#2
-cur.execute(
-    """
-SELECT COUNT(*) FROM tbl1
 
-"""
-).fetchall()
+SELECT COUNT(*) FROM tbl1

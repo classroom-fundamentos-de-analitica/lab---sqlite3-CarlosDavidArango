@@ -43,10 +43,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-#6
-cur.execute(
-    """
+
+
 SELECT * FROM tbl1 WHERE K0 = 'A' ORDER BY c14
 
-"""
-).fetchall()

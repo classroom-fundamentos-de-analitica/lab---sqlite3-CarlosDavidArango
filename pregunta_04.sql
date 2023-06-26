@@ -40,11 +40,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-#4
-cur.execute(
-    """
+
+
 SELECT tbl1.K0, tbl1.c16 FROM tbl1 WHERE tbl1.c16 LIKE tbl1.K0 || '%'
 
-
-"""
-).fetchall()

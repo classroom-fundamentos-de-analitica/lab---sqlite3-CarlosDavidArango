@@ -37,12 +37,7 @@
 --  0  2018     6
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
-# 11
-cur.execute(
-    """
+
+
 SELECT COUNT(*) FROM tbl1
     WHERE strftime('%Y', c14) = '2018'
-
-"""
-).fetchall()
